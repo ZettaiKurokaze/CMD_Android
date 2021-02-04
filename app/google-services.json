@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "629847542385",
+    "firebase_url": "https://classroom-management-sys-62bac.firebaseio.com",
+    "project_id": "classroom-management-sys-62bac",
+    "storage_bucket": "classroom-management-sys-62bac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629847542385:android:eb06bbb6d31082de7669d0",
+        "android_client_info": {
+          "package_name": "com.andromeda.cms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629847542385-v8ko9m5q5dsth2q1biiasfc6ekipenvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABeBF6o6CvPRjNAfGmMKrY3y79TM34Anw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629847542385-v8ko9m5q5dsth2q1biiasfc6ekipenvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629847542385:android:5e7708036f01969d7669d0",
+        "android_client_info": {
+          "package_name": "com.example.cms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629847542385-v8ko9m5q5dsth2q1biiasfc6ekipenvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABeBF6o6CvPRjNAfGmMKrY3y79TM34Anw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629847542385-v8ko9m5q5dsth2q1biiasfc6ekipenvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
