@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">CMS</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_text">Login</string>
+    <string name="newpassword_hint">New Password</string>
+    <string name="confirmnewpassword_hint">Confirm New Password</string>
+    <string name="changepassword_text">Change Password</string>
+    <string name="title_activity_user">Student</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="student_id_text">Student ID</string>
+    <string name="name_text">Name</string>
+    <string name="email_text">Email</string>
+    <string name="department_text">Department</string>
+    <string name="program_text">Program</string>
+    <string name="date_of_birth_text">Date of Birth</string>
+    <string name="batch_text">Batch</string>
+    <string name="staff_id_text">Staff ID</string>
+    <string name="phone_no_text">Phone No.</string>
+    <string name="designation_text">Designation</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_bookroom">Book Room</string>
+    <string name="menu_records">Booking Records</string>
+    <string name="menu_routine">Routine</string>
+    <string name="menu_changepassword">Change Password</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="table_header_building">Building No.</string>
+    <string name="table_header_room">Room No.</string>
+    <string name="table_header_date">Date</string>
+    <string name="table_header_start_time">Starting Time</string>
+    <string name="table_header_end_time">Ending Time</string>
+    <string name="table_header_course">Course ID</string>
+    <string name="table_header_routine">Routine ID</string>
+    <string name="table_header_notes">Notes</string>
+
+    <string name="fAB_records">Delete</string>
+
+
+    <string name="building_number_text">Building Number:</string>
+    <string name="capacity_text">Capacity:</string>
+    <string name="equipments_text">Equipments:</string>
+    <string name="boards_text">Boards:</string>
+    <string name="time_slot_text">Time Slot:</string>
+    <string name="capacity_hint">max 200</string>
+    <string name="ac_text">AC</string>
+    <string name="projector_text">Projector</string>
+    <string name="search_room_text">Search Room</string>
+    <string name="date_hint">click to set date</string>
+    <string name="course_id_hint">max 7 characters</string>
+    <string name="notes_hint">max 40 characters</string>
+
+
+    <string-array name="boards">
+        <item>Low (less than 4)</item>
+        <item>Medium (4 to 7)</item>
+        <item>High (more than 7)</item>
+    </string-array>
+
+    <string-array name="time_slots">
+        <item>09:00 AM - 09:50 AM</item>
+        <item>10:00 AM - 10:50 AM</item>
+        <item>11:00 AM - 11:50 AM</item>
+        <item>12:00 PM - 12:50 PM</item>
+        <item>02:10 PM - 03:00 PM</item>
+        <item>03:10 PM - 04:00 PM</item>
+        <item>04:15 PM - 05:05 PM</item>
+        <item>05:15 PM - 06:05 PM</item>
+    </string-array>
+
+    <string name="day_text">Day</string>
+    <string name="time_slot_1">09:00 – 09:50</string>
+    <string name="time_slot_2">10:00 – 10:50</string>
+    <string name="time_slot_3">11:00 – 11:50</string>
+    <string name="time_slot_4">12:00 – 12:50</string>
+    <string name="time_slot_5">02:10 – 03:00</string>
+    <string name="time_slot_6">03:10 – 04:00</string>
+    <string name="time_slot_7">04:15 – 05:05</string>
+    <string name="time_slot_8">05:15 – 06:05</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_staff">Staff</string>
+    <string name="title_activity_cr">CR</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
