@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_admin.xml"
+    app:startDestination="@id/nav_admindashboard">
+
+    <fragment
+        android:id="@+id/nav_admindashboard"
+        android:name="com.andromeda.cms.ui.adminDashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/admindashboard" />
+    <fragment
+        android:id="@+id/nav_user"
+        android:name="com.andromeda.cms.ui.userListFragment"
+        android:label="@string/menu_user"
+        tools:layout="@layout/fragment_user_list" />
+    <fragment
+        android:id="@+id/nav_misc"
+        android:name="com.andromeda.cms.ui.miscListFragment"
+        android:label="@string/menu_misc"
+        tools:layout="@layout/fragment_misc_list" />
+    <fragment
+        android:id="@+id/nav_routine_list"
+        android:name="com.andromeda.cms.ui.routineListFragment"
+        android:label="@string/menu_routine"
+        tools:layout="@layout/fragment_routine_list" />
+    <fragment
+        android:id="@+id/nav_changepassword"
+        android:name="com.andromeda.cms.ui.changePasswordFragment"
+        android:label="@string/menu_changepassword"
+        tools:layout="@layout/fragment_changepassword" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.andromeda.cms.ui.logoutFragment"
+        android:label="@string/menu_logout" />
+</navigation>

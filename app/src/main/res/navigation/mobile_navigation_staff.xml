@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_staff"
+    app:startDestination="@+id/nav_staffdashboard">
+
+    <fragment
+        android:id="@+id/nav_staffdashboard"
+        android:name="com.andromeda.cms.ui.staffDashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/staffdashboard" />
+
+    <fragment
+        android:id="@+id/nav_bookroom"
+        android:name="com.andromeda.cms.ui.bookRoomFragment"
+        android:label="@string/menu_bookroom"
+        tools:layout="@layout/fragment_bookroom" />
+
+    <fragment
+        android:id="@+id/nav_records"
+        android:name="com.andromeda.cms.ui.recordsFragment"
+        android:label="@string/menu_records"
+        tools:layout="@layout/fragment_records" />
+
+    <fragment
+        android:id="@+id/nav_changepassword"
+        android:name="com.andromeda.cms.ui.changePasswordFragment"
+        android:label="@string/menu_changepassword"
+        tools:layout="@layout/fragment_changepassword" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.andromeda.cms.ui.logoutFragment"
+        android:label="@string/menu_logout" />
+
+</navigation>

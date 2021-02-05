@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view_staff">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_staffdashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_bookroom"
+            android:icon="@drawable/ic_bookroom"
+            android:title="@string/menu_bookroom" />
+        <item
+            android:id="@+id/nav_records"
+            android:icon="@drawable/ic_records"
+            android:title="@string/menu_records" />
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/ic_changepassword"
+            android:title="@string/menu_changepassword" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout"/>
+    </group>
+</menu>

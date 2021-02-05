@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view_admin">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_admindashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_user"
+            android:title="@string/menu_user" />
+        <item
+            android:id="@+id/nav_misc"
+            android:icon="@drawable/ic_records"
+            android:title="@string/menu_misc" />
+        <item
+            android:id="@+id/nav_routine_list"
+            android:icon="@drawable/ic_routine"
+            android:title="@string/menu_routine" />
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/ic_changepassword"
+            android:title="@string/menu_changepassword" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>
